@@ -798,44 +798,51 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/water.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/wateredge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/wateredge.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/watercorner.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/watercorner.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets/watercorner.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/landcorner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/landcorner.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/forest_demo_terrain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/forest_demo_terrain.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [
-    {
-      "assetStoreId": "",
-      "height": 16,
-      "name": "dirt",
-      "texture": "dirt.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 16,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 16,
-      "name": "grass",
-      "texture": "grass.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 16,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 16,
-      "name": "grass2",
-      "texture": "grass2.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 16,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -1853,6 +1860,21 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Level_tilemap",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "assets/forest_demo_terrain.png",
+        "rowCount": 16,
+        "columnCount": 16,
+        "tileSize": 16,
+        "tilesWithHitBox": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1873,13 +1895,7 @@
         "folderName": "Level",
         "children": [
           {
-            "objectName": "grass2"
-          },
-          {
-            "objectName": "grass"
-          },
-          {
-            "objectName": "dirt"
+            "objectName": "Level_tilemap"
           }
         ]
       },
@@ -1926,392 +1942,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 2.2762478393837497,
+        "zoomFactor": 1.8046714318874344,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 48,
-          "keepRatio": true,
-          "layer": "",
-          "name": "World_details",
-          "persistentUuid": "fb36922b-3a18-4a59-a8f6-24d437eeb093",
-          "width": 96,
-          "x": 800,
-          "y": 256,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[78,79,78,79,78,79],[90,91,90,91,90,91],[102,103,102,103,102,103]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 48,
-          "keepRatio": true,
-          "layer": "",
-          "name": "World_details",
-          "persistentUuid": "98abca1c-68ea-4f24-a224-6c6af380d9f9",
-          "width": 96,
-          "x": 704,
-          "y": 256,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[78,79,78,79,78,79],[90,91,90,91,90,91],[102,103,102,103,102,103]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 48,
-          "keepRatio": true,
-          "layer": "",
-          "name": "World_details",
-          "persistentUuid": "e3a57416-5d09-428f-9844-6fa59594f428",
-          "width": 96,
-          "x": 608,
-          "y": 256,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":6,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[78,79,78,79,78,79],[90,91,90,91,90,91],[102,103,102,103,102,103]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "World_details",
-          "persistentUuid": "4c858b14-32a9-4f97-b274-4da335ca511e",
-          "width": 0,
-          "x": 624,
-          "y": 304,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [
-            {
-              "name": "tilemap",
-              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":20,\"dimY\":14,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,56,44,56,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,54,-1,-1,-1,-1,-1,-1,42,-1,56,-1,-1,-1,-1,-1,55,-1],[56,-1,-1,-1,42,-1,-1,42,-1,-1,-1,-1,56,-1,42,-1,-1,-1,-1,54],[-1,-1,-1,-1,-1,-1,-1,-1,-1,42,-1,-1,42,-1,42,-1,-1,-1,-1,-1],[-1,-1,105,-1,42,105,-1,-1,-1,-1,-1,-1,-1,-1,-1,55,-1,-1,54,-1],[-1,-1,42,-1,-1,-1,-1,-1,42,-1,56,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,42,-1,-1,-1,42,-1,54,-1,-1,-1],[-1,-1,42,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,104,-1,-1,42,-1,-1,-1,42,-1,-1,42,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,104,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,94,-1,42,-1,42,-1,-1,-1,-1,94,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,42,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,42,-1,-1,-1,-1,-1]]}]}"
-            }
-          ],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 224,
-          "keepRatio": true,
-          "layer": "",
-          "locked": true,
-          "name": "grass",
-          "persistentUuid": "2de1c693-014a-4cd8-a9eb-8d9292169e38",
-          "width": 432,
-          "x": 544,
-          "y": 208,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "aef32f8c-e65e-4be7-869e-5a60f5b6fd2d",
-          "width": 0,
-          "x": 624,
-          "y": 240,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "be8bd868-3bc9-453d-a1f1-597908253d38",
-          "width": 0,
-          "x": 672,
-          "y": 256,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "23ccab26-5bdb-48c4-a107-6da63f045d93",
-          "width": 0,
-          "x": 752,
-          "y": 304,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "5c68f7d9-4b7e-4791-95fa-6aa392c02263",
-          "width": 0,
-          "x": 800,
-          "y": 240,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "4b5c0e57-5538-4366-b622-62c5ecb5110a",
-          "width": 0,
-          "x": 944,
-          "y": 256,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "e014f0d2-c072-415e-b6bb-8e83b57f9084",
-          "width": 0,
-          "x": 848,
-          "y": 336,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "68f6db3f-dd82-4aa3-aca6-f89ab9bc5be8",
-          "width": 0,
-          "x": 688,
-          "y": 368,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "66633c23-2abf-434c-8cd4-d6a75b304ebf",
-          "width": 0,
-          "x": 608,
-          "y": 384,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "c3672392-77cb-4c97-afcb-2834719b0344",
-          "width": 0,
-          "x": 592,
-          "y": 320,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Tree",
-          "persistentUuid": "80b38692-0c84-41c6-9e99-82bfd4fb1a82",
-          "width": 0,
-          "x": 544,
-          "y": 352,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Tree",
-          "persistentUuid": "572402f3-0c18-4931-b312-867955f23449",
-          "width": 0,
-          "x": 544,
-          "y": 160,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "itemRock",
-          "persistentUuid": "44aff858-e6e1-422e-aa36-40861dde9a82",
-          "width": 16,
-          "x": 640,
-          "y": 320,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Camera",
-          "name": "RockCounter",
-          "persistentUuid": "28b685f3-adcd-44c1-96fc-d95e112ab61f",
-          "width": 0,
-          "x": 919,
-          "y": 144,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "itemRock",
-          "persistentUuid": "ad8f84f8-28c1-497f-bf84-28dd0cc01827",
-          "width": 16,
-          "x": 640,
-          "y": 336,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "itemRock",
-          "persistentUuid": "6b01bf43-89d2-4b6a-ae33-972a25eb193c",
-          "width": 16,
-          "x": 640,
-          "y": 368,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "nextScene",
-          "persistentUuid": "95d76903-5427-4d09-85ad-f4060052a862",
-          "width": 0,
-          "x": 944,
-          "y": 272,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Tree",
-          "persistentUuid": "22f2d4b5-6be5-43c8-9d27-2b962dee410b",
-          "width": 0,
-          "x": 576,
-          "y": 160,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -2322,9 +1958,9 @@
           "name": "Player",
           "persistentUuid": "ff9bc70f-a524-419f-a586-34a368261185",
           "width": 32,
-          "x": 592,
-          "y": 288,
-          "zOrder": 9,
+          "x": 48,
+          "y": 144,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3133,40 +2769,6 @@
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 496,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass",
-          "persistentUuid": "1089e02b-4e19-4292-8b6a-0b08e5d72c0b",
-          "width": 688,
-          "x": 0,
-          "y": 0,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "grass2",
-          "persistentUuid": "c5f36ea6-b6dc-4d95-856c-6d3f623ff098",
-          "width": 144,
-          "x": 64,
-          "y": 80,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
