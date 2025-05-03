@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
-    "name": "water is scarce  - unfinished",
+    "name": "Eliana level3 ",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -1060,6 +1060,22 @@
         "kind": "image",
         "metadata": "",
         "name": "tile035.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "honey-png-image_496064.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "honey-png-image_496064.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "honey-png-image_496064-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "honey-png-image_496064-removebg-preview.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -4315,14 +4331,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 80,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Bear",
           "persistentUuid": "26ace7c1-4efb-4c0e-ae28-4ba8ae2b7e8c",
-          "width": 96,
-          "x": 512,
-          "y": 144,
+          "width": 112,
+          "x": 496,
+          "y": 128,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -4332,31 +4348,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Honey",
-          "persistentUuid": "d9571a3f-7f0a-4690-82f0-e19281dc16c9",
-          "width": 32,
-          "x": 1168,
-          "y": 520,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
+          "height": 48,
           "keepRatio": true,
           "layer": "",
           "name": "itemRock",
           "persistentUuid": "bc40866e-8860-49cd-934c-5c1e5d521111",
-          "width": 64,
-          "x": 1072,
-          "y": 448,
+          "width": 48,
+          "x": 1088,
+          "y": 464,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -4375,6 +4374,23 @@
           "x": 1136,
           "y": 336,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 24,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Honey",
+          "persistentUuid": "f264faca-0b20-4a3d-8ddf-58f937702027",
+          "width": 32,
+          "x": 1184,
+          "y": 520,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4950,7 +4966,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "../../../Downloads/honey-png-image_496064-removebg-preview.png",
+                      "image": "honey-png-image_496064-removebg-preview.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5151,6 +5167,58 @@
                 "Animation",
                 "=",
                 "\"Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Player",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Player",
+                "Flippable",
+                ""
               ]
             }
           ]
@@ -5451,7 +5519,7 @@
                 "",
                 "\"BearAttackDelay\"",
                 ">",
-                "0.8"
+                "0.6"
               ]
             },
             {
@@ -5482,6 +5550,56 @@
               "parameters": [
                 "",
                 "\"level3_eliana\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Bear",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "HasHoney",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bear",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "HasHoney",
+                "False",
                 ""
               ]
             }
