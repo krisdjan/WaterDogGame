@@ -3186,7 +3186,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.6337626779315646,
+        "zoomFactor": 1.2952916551236429,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3831,23 +3831,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "enemy",
-          "persistentUuid": "0809efec-32f5-44ad-bf18-997865a2c481",
-          "width": 16,
-          "x": -16,
-          "y": 224,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -3887,45 +3870,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "enemy",
-          "persistentUuid": "41ded256-3128-4454-a575-a63c9b9fa000",
+          "persistentUuid": "c4d12a9f-e156-44fa-878e-34132f00dd10",
           "width": 16,
-          "x": 352,
+          "x": 368,
           "y": 176,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "enemy",
-          "persistentUuid": "d8a65f61-ae6c-497c-8a7d-5673e9b506d3",
-          "width": 16,
-          "x": 336,
-          "y": 128,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "enemy",
-          "persistentUuid": "22f71a54-f797-4e87-b6b8-e66812cd976d",
-          "width": 16,
-          "x": 288,
-          "y": 192,
-          "zOrder": 18,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5889,11 +5838,22 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "ENEMY",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Shrub with collision"
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5953,6 +5913,79 @@
                     "",
                     "Player.PointX(\"Center\")",
                     "Player.PointY(\"Center\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Shrub with point"
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Hideable_Shrub",
+                    "Player.PointX(\"Center\")",
+                    "Player.PointY(\"Center\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Pathfinding",
+                    "",
+                    "Player.PointX(\"Center\")",
+                    "Player.PointY(\"Center\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Hideable_Shrub",
+                    "Player.PointX(\"Center\")",
+                    "Player.PointY(\"Center\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "enemy",
+                    "Pathfinding",
+                    "",
+                    "NPC.PointX(\"Center\")",
+                    "NPC.PointY(\"Center\")"
                   ]
                 }
               ]
@@ -6182,6 +6215,28 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogueTXT",
+                    "Text",
+                    "=",
+                    "\"Hello\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NameTXT",
+                    "Text",
+                    "=",
+                    "\"Ken\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Montre"
