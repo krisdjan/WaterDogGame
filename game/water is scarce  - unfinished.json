@@ -1414,6 +1414,14 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3186,7 +3194,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.2952916551236429,
+        "zoomFactor": 0.761936267719792,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3204,7 +3212,7 @@
           "width": 32,
           "x": 96,
           "y": 128,
-          "zOrder": 5,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3241,8 +3249,8 @@
           "name": "NPC",
           "persistentUuid": "6f9f7f4c-6e2b-4ec4-bea1-0b576a88df33",
           "width": 16,
-          "x": 240,
-          "y": 256,
+          "x": 144,
+          "y": 160,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -3313,38 +3321,6 @@
           "x": -624,
           "y": 520,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Shrub",
-          "persistentUuid": "3a441411-c7c2-4c94-81f4-8f74083d651f",
-          "width": 0,
-          "x": 0,
-          "y": 144,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Shrub",
-          "persistentUuid": "923b238a-f4a6-46f6-b161-c9ea6d00d855",
-          "width": 0,
-          "x": 48,
-          "y": 128,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3486,7 +3462,7 @@
           "name": "water_glitter",
           "persistentUuid": "bf1a8768-a89c-4bc1-b897-f0e8cc73535e",
           "width": 0,
-          "x": 48,
+          "x": 64,
           "y": 48,
           "zOrder": 2,
           "numberProperties": [],
@@ -3806,25 +3782,9 @@
           "name": "Hideable_Shrub",
           "persistentUuid": "252a8495-550c-4bad-9fab-74341d0b9886",
           "width": 0,
-          "x": 128,
+          "x": 224,
           "y": 176,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Hideable_Shrub",
-          "persistentUuid": "a9d90a4f-710e-4c5a-961a-9968d8929b0c",
-          "width": 0,
-          "x": 176,
-          "y": 144,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3849,14 +3809,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 176,
+          "height": 144,
           "keepRatio": true,
           "layer": "UI",
           "name": "DialogueTXT",
           "persistentUuid": "cf53fafa-98b4-4d62-81ab-4664c40cccc8",
-          "width": 1047,
-          "x": 217,
-          "y": 528,
+          "width": 1024,
+          "x": 224,
+          "y": 544,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3872,9 +3832,314 @@
           "name": "enemy",
           "persistentUuid": "c4d12a9f-e156-44fa-878e-34132f00dd10",
           "width": 16,
-          "x": 368,
+          "x": 1168,
+          "y": 128,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "3c1f370a-3d2b-444b-9891-dd98cc867241",
+          "width": 0,
+          "x": 0,
+          "y": 48,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "046b0cf8-cd3d-4799-ba82-8aaf1b7ab3c8",
+          "width": 0,
+          "x": 32,
+          "y": 64,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "1569100f-83ff-4c2a-b05e-a0300555af23",
+          "width": 0,
+          "x": 0,
+          "y": 80,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "5d22d513-5b97-487f-8fff-2065b816014e",
+          "width": 0,
+          "x": 32,
+          "y": 96,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "f9309219-e878-4b3d-b59a-440c22e7e732",
+          "width": 0,
+          "x": 0,
+          "y": 112,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "845482f9-9bdd-48ed-aa3d-3136103af2e2",
+          "width": 0,
+          "x": 32,
+          "y": 128,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "085b2946-e0db-4078-bc4c-4208be10f67b",
+          "width": 0,
+          "x": 0,
+          "y": 144,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "f859a619-74c2-4e92-8441-b6fe1c38717d",
+          "width": 0,
+          "x": 32,
+          "y": 160,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "c2d97baf-2b92-41e1-9edb-5cc21deb7e58",
+          "width": 0,
+          "x": 0,
           "y": 176,
-          "zOrder": 15,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "58890396-5f74-4b6e-b227-1b286afb79bc",
+          "width": 0,
+          "x": 48,
+          "y": 192,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "9d4c18b5-83f3-4fea-b2ba-610f9380efe5",
+          "width": 0,
+          "x": 752,
+          "y": 64,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "fca94ec4-e712-4427-98d0-610de8b0f771",
+          "width": 0,
+          "x": 784,
+          "y": 80,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "d8b9316e-5ec7-433c-a527-3b710e292c54",
+          "width": 0,
+          "x": 752,
+          "y": 96,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "1022d409-d8b1-4636-82a9-88b2ef86e5e0",
+          "width": 0,
+          "x": 784,
+          "y": 112,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "483011e2-e482-4793-8a74-2a91e189461d",
+          "width": 0,
+          "x": 752,
+          "y": 160,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "38104c67-6e28-413f-a13e-911a9aecce3a",
+          "width": 0,
+          "x": 784,
+          "y": 176,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "a9baf809-a5bb-4c04-b7cd-7fb50e347c3c",
+          "width": 0,
+          "x": 752,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "69b731b1-9d84-44b8-b917-7453184947b8",
+          "width": 0,
+          "x": 800,
+          "y": 208,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "NextScene",
+          "persistentUuid": "65674387-a6ae-4400-8ee5-84c0f614292c",
+          "width": 16,
+          "x": 800,
+          "y": 176,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5285,7 +5550,7 @@
           "string": "DIALOGUE",
           "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 65,
+          "characterSize": 45,
           "color": {
             "b": 255,
             "g": 255,
@@ -5309,7 +5574,7 @@
             "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 65,
+            "characterSize": 45,
             "color": "255;255;255"
           }
         },
@@ -5354,6 +5619,67 @@
             "characterSize": 35,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NextScene",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5367,6 +5693,9 @@
           },
           {
             "objectName": "NameTXT"
+          },
+          {
+            "objectName": "NextScene"
           }
         ]
       },
@@ -5449,6 +5778,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PLAYER",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5838,6 +6168,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "ENEMY",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6187,6 +6518,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6223,7 +6555,7 @@
                     "DialogueTXT",
                     "Text",
                     "=",
-                    "\"Hello\""
+                    "\"Quick!!\nHide behind the shrub so the raccoon won't see you!\""
                   ]
                 },
                 {
@@ -6304,6 +6636,47 @@
                   },
                   "parameters": [
                     "DialogueTXT"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "LEVEL",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "NextScene",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 2\"",
+                    ""
                   ]
                 }
               ]
@@ -6497,6 +6870,238 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level_322",
+      "name": "Level 2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 2.130165915900273,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Level_tilemap",
+          "persistentUuid": "671aec6b-0a58-44cd-aeb9-5d8c6be79a2b",
+          "width": 0,
+          "x": 275,
+          "y": 157,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":37,\"dimY\":20,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,-1],[0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,-1],[0,0,2,2,0,0,0,0,0,0,0,0,1,0,0,2,2,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,0,0,0,1,0,0,0,0,0,2,2,0,0,2,1,1,0,0,1,0,0,0,0,0,0,0,0,2,2,0,0,0,-1],[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,0,0,2,2,0,0,0,-1],[0,0,0,0,2,2,2,0,0,0,0,2,0,0,0,2,0,0,0,0,2,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,2,0,2,2,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,2,2,0,0,0,1,0,0,0,1,0,0,0,0,0,2,2,2,2,2,0,0,0,0,2,0,0,0,0,0,0,0,-1],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,2,0,0,0,0,2,0,0,0,0,0,0,0,-1],[0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,0,0,0,2,2,0,0,0,0,2,0,0,0,0,0,2,2],[0,0,0,2,0,1,1,0,0,1,1,2,0,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,2,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,0,0,0,0,0,-1],[0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "50e967c1-9800-4dd1-b0f5-451a5ee6780c",
+          "width": 0,
+          "x": 462,
+          "y": 189,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "7dc0edc7-554c-41c3-9477-07085780d67e",
+          "width": 0,
+          "x": 436,
+          "y": 213,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "ee7ded7a-d5cb-4512-aff5-604b660c6f8b",
+          "width": 0,
+          "x": 423,
+          "y": 246,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "ce0a3d9a-b23c-40bc-8a62-38d576904896",
+          "width": 0,
+          "x": 422,
+          "y": 284,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0.8888888888888888,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "3f307687-8a93-4640-8d6a-6f44efae339d",
+          "width": 32,
+          "x": 464,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Level 1"
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
         },
         {
           "name": "TopDownMovement",
