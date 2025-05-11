@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
-    "name": "water is scarce  - unfinished",
+    "name": "Fluffy in search of a plant",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -28,7 +28,35 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -2102,6 +2130,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Sound/SFX/ambience.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\SFX\\ambience.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2834,268 +2872,16 @@
           ]
         },
         {
-          "name": "wake up",
+          "name": "sleep",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.2,
+              "timeBetweenFrames": 0.03,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Player/player065.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 132
-                      },
-                      {
-                        "x": 39,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/Player/player064.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 132
-                      },
-                      {
-                        "x": 39,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/Player/player063.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 132
-                      },
-                      {
-                        "x": 39,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/Player/player062.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 132
-                      },
-                      {
-                        "x": 39,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/Player/player061.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 132
-                      },
-                      {
-                        "x": 39,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/Player/player060.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 132
-                      },
-                      {
-                        "x": 39,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/Player/player059.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 57
-                      },
-                      {
-                        "x": 159,
-                        "y": 132
-                      },
-                      {
-                        "x": 39,
-                        "y": 132
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/Player/player058.png",
+                  "image": "assets/Player/player056.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3167,7 +2953,259 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/Player/player056.png",
+                  "image": "assets/Player/player058.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 132
+                      },
+                      {
+                        "x": 39,
+                        "y": 132
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Player/player059.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 132
+                      },
+                      {
+                        "x": 39,
+                        "y": 132
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Player/player060.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 132
+                      },
+                      {
+                        "x": 39,
+                        "y": 132
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Player/player061.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 132
+                      },
+                      {
+                        "x": 39,
+                        "y": 132
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Player/player062.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 132
+                      },
+                      {
+                        "x": 39,
+                        "y": 132
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Player/player063.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 132
+                      },
+                      {
+                        "x": 39,
+                        "y": 132
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Player/player065.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 57
+                      },
+                      {
+                        "x": 159,
+                        "y": 132
+                      },
+                      {
+                        "x": 39,
+                        "y": 132
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/Player/player064.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4731,7 +4769,7 @@
                 "Instructions",
                 "Text",
                 "+",
-                "\"\nPress e to continue\""
+                "\"\nPress E to continue\""
               ]
             },
             {
@@ -4964,7 +5002,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8993607583667432,
+        "zoomFactor": 0.6897782140105122,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20112,7 +20150,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Sound\\SFX\\ambience.wav",
+                "assets\\Sound\\SFX\\ambience.mp3",
                 "yes",
                 "85",
                 ""
@@ -20701,7 +20739,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "ENEMY",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21048,6 +21085,35 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"sleep\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "MettreXY"
                       },
                       "parameters": [
@@ -21056,6 +21122,27 @@
                         "1280",
                         "=",
                         "704"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Idle\""
                       ]
                     }
                   ]
@@ -21343,6 +21430,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21937,7 +22025,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.33253870912508016,
+        "zoomFactor": 0.8700232859857379,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22819,7 +22907,7 @@
           "width": 0,
           "x": 1088,
           "y": 480,
-          "zOrder": 20,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23852,6 +23940,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "7b437af0-94c0-4b34-aa64-ffa79c594fe3",
+          "width": 80,
+          "x": 1168,
+          "y": 496,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -24459,7 +24564,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Sound\\SFX\\ambience.wav",
+                "assets\\Sound\\SFX\\ambience.mp3",
                 "yes",
                 "85",
                 ""
@@ -24846,6 +24951,16 @@
                     "True",
                     "="
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    ""
+                  ]
                 }
               ]
             },
@@ -24877,11 +24992,21 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
                     "Player",
-                    ""
+                    "Animation",
+                    "=",
+                    "\"sleep\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
                   ]
                 },
                 {
@@ -31761,7 +31886,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "🪵Logs: 0/3",
+          "string": "Logs: 0/3",
           "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 50,
@@ -31784,7 +31909,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "🪵Logs: 0/3",
+            "text": "Logs: 0/3",
             "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -32319,7 +32444,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Sound\\SFX\\ambience.wav",
+                "assets\\Sound\\SFX\\ambience.mp3",
                 "yes",
                 "85",
                 ""
