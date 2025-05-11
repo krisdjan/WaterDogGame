@@ -2022,6 +2022,86 @@
         "name": "NewSprite11",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Sound/Music/intro.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Music\\intro.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sound/Music/level2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Music\\level2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sound/Music/level3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Music\\level3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sound/Music/outro.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Music\\outro.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sound/SFX/bush.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\SFX\\bush.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sound/SFX/ambience.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\SFX\\ambience.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sound/SFX/run.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\SFX\\run.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sound/SFX/bear.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\SFX\\bear.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4504,6 +4584,18 @@
             },
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sound\\Music\\intro.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -4872,7 +4964,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.32169117647061757,
+        "zoomFactor": 0.8993607583667432,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16614,23 +16706,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "enemy",
-          "persistentUuid": "674d32d5-9c11-436b-af13-da02547d863b",
-          "width": 16,
-          "x": 2496,
-          "y": 480,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -17718,23 +17793,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "enemy",
-          "persistentUuid": "c48069fd-1859-45cb-b5e4-d38ef591bb2b",
-          "width": 16,
-          "x": 2048,
-          "y": 672,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -17826,23 +17884,6 @@
           "width": 16,
           "x": 1808,
           "y": 304,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "enemy",
-          "persistentUuid": "7d29f6a9-1fb3-41ea-beb2-d60675df5050",
-          "width": 16,
-          "x": 1792,
-          "y": 480,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -17973,23 +18014,6 @@
           "x": 1536,
           "y": 192,
           "zOrder": 213,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "enemy",
-          "persistentUuid": "a25ea7c3-b93e-4b68-8661-c18a85dbf923",
-          "width": 16,
-          "x": 1504,
-          "y": 400,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20084,6 +20108,18 @@
             },
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sound\\SFX\\ambience.wav",
+                "yes",
+                "85",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
@@ -20179,6 +20215,18 @@
                 "Player.PointY(\"Center\")",
                 "80",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Sound\\SFX\\bush.mp3",
+                "",
+                "100",
+                ""
               ]
             },
             {
@@ -24407,6 +24455,18 @@
             },
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sound\\SFX\\ambience.wav",
+                "yes",
+                "85",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ZoomCamera"
               },
               "parameters": [
@@ -24459,6 +24519,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Sound\\SFX\\bush.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -24500,9 +24572,9 @@
               },
               "parameters": [
                 "",
-                "assets\\Sound\\Music\\calm.mp3",
+                "assets\\Sound\\Music\\level2.mp3",
                 "yes",
-                "75",
+                "90",
                 ""
               ]
             }
@@ -24746,6 +24818,18 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Sound\\SFX\\bear.mp3",
+                    "",
+                    "65",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ResetTimer"
                   },
                   "parameters": [
@@ -24916,6 +25000,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PLAYER",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25040,7 +25125,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "PLAYER ANIMATIONS",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -32231,6 +32315,18 @@
             },
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sound\\SFX\\ambience.wav",
+                "yes",
+                "85",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -32312,6 +32408,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Sound\\SFX\\bush.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -32353,7 +32461,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Sound\\Music\\calm.mp3",
+                "assets\\Sound\\Music\\level3.mp3",
                 "yes",
                 "75",
                 ""
@@ -32400,7 +32508,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Challenge with snake",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33080,17 +33187,31 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\Sound\\SFX\\snake_hiss2.wav",
-                    "",
-                    "100",
-                    "100\n"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Sound\\SFX\\snake_hiss2.wav",
+                        "",
+                        "100",
+                        "100\n"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -33796,6 +33917,87 @@
                       "parameters": [
                         "Player",
                         "bridgeCollision",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Log1",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Log2",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Log3",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Log1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Log2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Log3",
                         ""
                       ]
                     }
@@ -34678,7 +34880,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.433577430470238,
+        "zoomFactor": 0.4057518905943831,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -34829,6 +35031,44 @@
                 "Text",
                 "=",
                 "\"To be continued\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sound\\Music\\outro.mp3",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\"",
+                ""
               ]
             }
           ]
