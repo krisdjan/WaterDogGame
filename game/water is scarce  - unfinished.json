@@ -2140,6 +2140,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/pile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\pile.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4993,7 +5009,7 @@
       "title": "",
       "v": 155,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
@@ -5001,8 +5017,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 2.871051280997285,
+        "snap": false,
+        "zoomFactor": 0.6244537826600598,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8851,7 +8867,7 @@
           "width": 0,
           "x": 512,
           "y": 544,
-          "zOrder": 5,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9875,7 +9891,7 @@
           "width": 0,
           "x": 512,
           "y": 640,
-          "zOrder": 5,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11959,7 +11975,7 @@
           "width": 0,
           "x": 512,
           "y": 608,
-          "zOrder": 5,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11975,7 +11991,7 @@
           "width": 0,
           "x": 538,
           "y": 586,
-          "zOrder": 5,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21919,7 +21935,7 @@
           "isLocked": false,
           "name": "UI",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22073,7 +22089,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8700232859857379,
+        "zoomFactor": 0.8141881203709995,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25648,7 +25664,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3673257545058909,
+        "zoomFactor": 0.7876290101673993,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25777,7 +25793,7 @@
           "width": 0,
           "x": 572,
           "y": 59,
-          "zOrder": 15,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25839,7 +25855,7 @@
           "name": "Tree",
           "persistentUuid": "74f02363-5b7a-442b-b319-e1a02ab0a6ac",
           "width": 0,
-          "x": 554,
+          "x": 547,
           "y": -176,
           "zOrder": 15,
           "numberProperties": [],
@@ -25855,8 +25871,8 @@
           "name": "Tree",
           "persistentUuid": "039b6f05-e99a-41bf-91d3-33aa5a6c1b48",
           "width": 0,
-          "x": 517,
-          "y": -153,
+          "x": 520,
+          "y": -161,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -25871,8 +25887,8 @@
           "name": "Tree",
           "persistentUuid": "c341cf6e-ccac-4514-92a7-4740bf3d181a",
           "width": 0,
-          "x": 602,
-          "y": -185,
+          "x": 587,
+          "y": -182,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -25887,8 +25903,8 @@
           "name": "Tree",
           "persistentUuid": "cbc4e053-0625-4805-891d-8f31814f26c6",
           "width": 0,
-          "x": 654,
-          "y": -172,
+          "x": 662,
+          "y": -167,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -25903,8 +25919,8 @@
           "name": "Tree",
           "persistentUuid": "117323f7-5671-47a4-a9e3-592553977356",
           "width": 0,
-          "x": 503,
-          "y": -120,
+          "x": 512,
+          "y": -130,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -25935,8 +25951,8 @@
           "name": "Tree",
           "persistentUuid": "ad49e9c5-e8bf-41c7-bd27-b469013e312b",
           "width": 0,
-          "x": 685,
-          "y": -138,
+          "x": 679,
+          "y": -136,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -26000,8 +26016,8 @@
           "name": "Tree",
           "persistentUuid": "e4f7bb5c-7421-4fba-8128-5c383e752c45",
           "width": 0,
-          "x": 713,
-          "y": -98,
+          "x": 697,
+          "y": -109,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -26096,8 +26112,8 @@
           "name": "Tree",
           "persistentUuid": "c871a4cd-e5db-40d8-b8ef-a959f5fedcd0",
           "width": 0,
-          "x": 610,
-          "y": 30,
+          "x": 597,
+          "y": 22,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -26112,7 +26128,7 @@
           "name": "Tree",
           "persistentUuid": "88f86d5a-9954-4f10-a62c-0eec5970bb29",
           "width": 0,
-          "x": 556,
+          "x": 560,
           "y": -25,
           "zOrder": 27,
           "numberProperties": [],
@@ -26128,8 +26144,8 @@
           "name": "Tree",
           "persistentUuid": "99f9ca52-f455-4ccf-8f0b-c79980c7c07d",
           "width": 0,
-          "x": 702,
-          "y": -160,
+          "x": 704,
+          "y": -171,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -26432,7 +26448,7 @@
           "name": "Tree",
           "persistentUuid": "21810aca-629b-4bdc-bb44-a1b874d55ab0",
           "width": 0,
-          "x": 300,
+          "x": 289,
           "y": 411,
           "zOrder": 43,
           "numberProperties": [],
@@ -26466,7 +26482,7 @@
           "width": 0,
           "x": 226,
           "y": 162,
-          "zOrder": 45,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26482,7 +26498,7 @@
           "width": 0,
           "x": 184,
           "y": 194,
-          "zOrder": 46,
+          "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26512,8 +26528,8 @@
           "name": "Tree",
           "persistentUuid": "71f84c80-f7ad-4a46-abed-10c02ccddd8b",
           "width": 0,
-          "x": 188,
-          "y": 274,
+          "x": 185,
+          "y": 262,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -26546,7 +26562,7 @@
           "width": 0,
           "x": 140,
           "y": 279,
-          "zOrder": 49,
+          "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26560,7 +26576,7 @@
           "name": "Tree",
           "persistentUuid": "3fd47a46-8fe5-41f5-b496-a17023c7adb5",
           "width": 0,
-          "x": 101,
+          "x": 113,
           "y": 349,
           "zOrder": 51,
           "numberProperties": [],
@@ -26592,7 +26608,7 @@
           "name": "Tree",
           "persistentUuid": "3d586d82-406c-440b-96a3-b846f4af9dfe",
           "width": 0,
-          "x": 90,
+          "x": 79,
           "y": 426,
           "zOrder": 53,
           "numberProperties": [],
@@ -26720,7 +26736,7 @@
           "name": "Tree",
           "persistentUuid": "ad6194a0-c804-477b-b2dc-246ece27a025",
           "width": 0,
-          "x": 380,
+          "x": 362,
           "y": 466,
           "zOrder": 61,
           "numberProperties": [],
@@ -26786,7 +26802,7 @@
           "width": 0,
           "x": 156,
           "y": 226,
-          "zOrder": 47,
+          "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26801,8 +26817,8 @@
           "name": "Snake",
           "persistentUuid": "704a4b34-fdfc-4449-9d42-29c26bb1733f",
           "width": 13,
-          "x": 353,
-          "y": 581,
+          "x": 349,
+          "y": 577,
           "zOrder": 136,
           "numberProperties": [],
           "stringProperties": [],
@@ -26881,8 +26897,8 @@
           "name": "Tree",
           "persistentUuid": "3ad482af-058f-4dee-9a9b-c277a3e72632",
           "width": 0,
-          "x": 137,
-          "y": -120,
+          "x": 125,
+          "y": -131,
           "zOrder": 134,
           "numberProperties": [],
           "stringProperties": [],
@@ -26913,8 +26929,8 @@
           "name": "Tree",
           "persistentUuid": "8ba8e06e-1ec9-4515-bfc1-31a7a8fd5b35",
           "width": 0,
-          "x": 444,
-          "y": -78,
+          "x": 446,
+          "y": -86,
           "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
@@ -26930,7 +26946,7 @@
           "persistentUuid": "d5000ad3-db79-4af0-83f4-e6fa6db819e2",
           "width": 0,
           "x": 460,
-          "y": -126,
+          "y": -125,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -27025,8 +27041,8 @@
           "name": "Tree",
           "persistentUuid": "c3a4291f-704f-445e-9fe0-5d52a07aa82b",
           "width": 0,
-          "x": 430,
-          "y": -238,
+          "x": 428,
+          "y": -251,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -27043,7 +27059,7 @@
           "persistentUuid": "3b7a1cc1-6d5d-47fa-a8aa-2964d8ec22d0",
           "width": 64,
           "x": 456,
-          "y": -206,
+          "y": -208,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -27251,8 +27267,8 @@
           "name": "BushRedFlowers",
           "persistentUuid": "65c006f3-280b-416f-9ffe-2eefa7357ece",
           "width": 0,
-          "x": 428,
-          "y": -141,
+          "x": 446,
+          "y": -138,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -27350,39 +27366,6 @@
           "x": 435,
           "y": -88,
           "zOrder": 77,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BushRedFlowers",
-          "persistentUuid": "52522a4d-629d-429d-b8fe-1954afcc4c77",
-          "width": 0,
-          "x": 460,
-          "y": -141,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BushRedFlowers",
-          "persistentUuid": "6b2b6bb7-cb7a-4410-b29f-0ad1386883bb",
-          "width": 32,
-          "x": 444,
-          "y": -126,
-          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27631,12 +27614,12 @@
           "angle": 78,
           "customSize": true,
           "depth": 0,
-          "height": 56.326530612244895,
+          "height": 49.28571428571429,
           "keepRatio": true,
           "layer": "",
           "name": "Log1",
           "persistentUuid": "810197d7-a95d-4254-96e4-d5ce35ec8061",
-          "width": 40,
+          "width": 35,
           "x": 300,
           "y": 568,
           "zOrder": 135,
@@ -27648,14 +27631,14 @@
           "angle": 68,
           "customSize": true,
           "depth": 0,
-          "height": 49.28571428571426,
+          "height": 42.24489795918365,
           "keepRatio": true,
           "layer": "",
           "name": "Log2",
           "persistentUuid": "b1713211-4efb-484d-ab82-ea0f01ee3faa",
-          "width": 35,
-          "x": 447,
-          "y": -148,
+          "width": 30,
+          "x": 184,
+          "y": -138,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -27687,7 +27670,7 @@
           "name": "Tree",
           "persistentUuid": "c7f604e9-facf-4483-b387-883afc05931d",
           "width": 64,
-          "x": 469,
+          "x": 470,
           "y": -166,
           "zOrder": 14,
           "numberProperties": [],
@@ -27767,7 +27750,7 @@
           "name": "Tree",
           "persistentUuid": "57faface-6c3c-494a-963d-606b7fa1a768",
           "width": 0,
-          "x": -10,
+          "x": -7,
           "y": 60,
           "zOrder": 141,
           "numberProperties": [],
@@ -28055,8 +28038,8 @@
           "name": "Tree",
           "persistentUuid": "2884922e-10f8-4c52-80d6-97d77400aa40",
           "width": 0,
-          "x": 60,
-          "y": -125,
+          "x": 64,
+          "y": -130,
           "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
@@ -28082,12 +28065,12 @@
           "angle": 69,
           "customSize": true,
           "depth": 0,
-          "height": 49.28571428571428,
+          "height": 42.24489795918367,
           "keepRatio": true,
           "layer": "",
           "name": "Log3",
           "persistentUuid": "15551fc6-cf01-4276-a2bb-28da16ce3cc5",
-          "width": 35,
+          "width": 30,
           "x": -10,
           "y": -190,
           "zOrder": 100,
@@ -28138,8 +28121,8 @@
           "name": "itemRock2",
           "persistentUuid": "d9d4330d-b362-4af9-9942-d5befb85f901",
           "width": 0,
-          "x": 28,
-          "y": 108,
+          "x": 51,
+          "y": -133,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -28492,7 +28475,7 @@
           "width": 0,
           "x": -512,
           "y": -144,
-          "zOrder": 151,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28730,9 +28713,9 @@
           "name": "forestblock",
           "persistentUuid": "2ec574e7-bbab-4a23-a19c-96ae18ba2919",
           "width": 0,
-          "x": -336,
-          "y": 192,
-          "zOrder": 70,
+          "x": -343,
+          "y": 195,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28746,9 +28729,9 @@
           "name": "forestblock",
           "persistentUuid": "7b46679f-a8f3-470e-a140-e1de3ca4fd38",
           "width": 0,
-          "x": -138,
-          "y": 224,
-          "zOrder": 70,
+          "x": -123,
+          "y": 208,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28762,8 +28745,8 @@
           "name": "forestblock",
           "persistentUuid": "ddae8c85-588a-4571-9592-ab1f82dca95d",
           "width": 0,
-          "x": -144,
-          "y": 432,
+          "x": -152,
+          "y": 407,
           "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
@@ -28780,7 +28763,7 @@
           "width": 0,
           "x": -64,
           "y": 560,
-          "zOrder": 70,
+          "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28796,7 +28779,7 @@
           "width": 0,
           "x": 70,
           "y": 656,
-          "zOrder": 70,
+          "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28826,8 +28809,8 @@
           "name": "forestblock",
           "persistentUuid": "67ca41fb-9e15-4b3c-a5d0-82db3ab9165a",
           "width": 0,
-          "x": 400,
-          "y": 592,
+          "x": 402,
+          "y": 595,
           "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
@@ -28909,7 +28892,7 @@
           "layer": "Collision",
           "name": "Collision",
           "persistentUuid": "edf82aa7-ce2e-4e72-98bf-fd391e0c760f",
-          "width": 32,
+          "width": 61,
           "x": -96,
           "y": -64,
           "zOrder": 152,
@@ -30213,6 +30196,511 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "0f848fdd-ce23-44f4-bcef-3a1e5e1fda93",
+          "width": 159,
+          "x": -72,
+          "y": -149,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "cd6d6b3e-7cab-4ce0-a1cf-339ce1e6fa93",
+          "width": 16,
+          "x": -33,
+          "y": -135,
+          "zOrder": 201,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "5d5d22e4-586b-45e1-83d2-507395d40f0c",
+          "width": 0,
+          "x": 170,
+          "y": -59,
+          "zOrder": 135,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "a4e0ee3c-91db-4fc1-bc1a-306604b0842b",
+          "width": 0,
+          "x": 134,
+          "y": -102,
+          "zOrder": 134,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "b7bd435e-af10-4137-bedf-2e4ed0a4f763",
+          "width": 0,
+          "x": 515,
+          "y": -101,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "8465afdb-7217-4a76-839b-7bf7acc4f877",
+          "width": 0,
+          "x": 630,
+          "y": -182,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "GoToTheBeaverTXT",
+          "persistentUuid": "33a680c4-f3e2-477d-9d6f-22267a0edf43",
+          "width": 0,
+          "x": 278,
+          "y": 17,
+          "zOrder": 202,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "e6990bb2-153e-452b-907f-3ad0ada9a742",
+          "width": 16,
+          "x": -20,
+          "y": -148,
+          "zOrder": 201,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "Barrier",
+          "persistentUuid": "6d283366-1543-4f24-9522-a8126b85c0ef",
+          "width": 1009,
+          "x": -304,
+          "y": 119,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "Barrier",
+          "persistentUuid": "3d857d03-b847-42a3-a1a3-142cf6704756",
+          "width": 1009,
+          "x": -299,
+          "y": 198,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 79,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LogExample",
+          "persistentUuid": "f223452c-7062-4f68-addf-578cf27bd5e9",
+          "width": 27,
+          "x": 608,
+          "y": -94,
+          "zOrder": 203,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "f942569e-49a8-41ef-b96a-5c0dd02f97cf",
+          "width": 0,
+          "x": 719,
+          "y": -87,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "53fe24ce-6b67-4b40-92a0-254899cd06fd",
+          "width": 0,
+          "x": 539,
+          "y": -48,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "6e202bcc-28d9-4ad1-9c1c-586feed08caa",
+          "width": 0,
+          "x": 431,
+          "y": -65,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "06c94c09-d1b0-46e7-8a7e-a4ef7f32f47a",
+          "width": 0,
+          "x": 54,
+          "y": -108,
+          "zOrder": 135,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "36549de1-0a42-493c-ad9b-27847da11c9f",
+          "width": 0,
+          "x": 444,
+          "y": -235,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "6a710898-2de5-4253-b50f-f711a1f2d191",
+          "width": 0,
+          "x": 313,
+          "y": 310,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "e84dc74e-3890-4d48-81ea-7939f55528cd",
+          "width": 0,
+          "x": 124,
+          "y": 433,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "3352d749-7952-4af1-b842-8391572e548f",
+          "width": 0,
+          "x": 192,
+          "y": 600,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "796767f7-6d09-444f-bf6a-50907893e2f2",
+          "width": 0,
+          "x": 156,
+          "y": 600,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "7ccb668b-439d-45f6-990d-3821bd6449ff",
+          "width": 0,
+          "x": 152,
+          "y": 553,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "7478b6b1-3682-4481-a417-ff276b7d3432",
+          "width": 0,
+          "x": 398,
+          "y": 483,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "8a3454d1-7d53-4137-bc0a-b7607bb3cd09",
+          "width": 0,
+          "x": 338,
+          "y": 369,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "acb8dc06-e284-4439-9258-4f61921feca1",
+          "width": 0,
+          "x": 340,
+          "y": 407,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "ac207761-c325-47a7-bdcf-a62059a41bf7",
+          "width": 0,
+          "x": 103,
+          "y": 303,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "c1b08f84-2e26-4d92-a9b8-3eded4d0ccd0",
+          "width": 0,
+          "x": 167,
+          "y": 293,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "fa3847c4-4a39-4f9f-9eb0-2b8eb7802946",
+          "width": 0,
+          "x": 546,
+          "y": 23,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "eafd849e-6d42-4840-8461-9d6a6bd5d6ac",
+          "width": 64,
+          "x": 501,
+          "y": -197,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tree",
+          "persistentUuid": "b6579589-ef14-467b-8135-e4df52c4082c",
+          "width": 0,
+          "x": 732,
+          "y": -146,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 195,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "293c6eb6-7d99-4b8f-8dc0-1451581347ad",
+          "width": 16,
+          "x": 513,
+          "y": -216,
+          "zOrder": 152,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 178,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "Collision",
+          "persistentUuid": "3a24bce6-1f5d-4ef3-917b-994b453ee42a",
+          "width": 16,
+          "x": 122,
+          "y": -260,
+          "zOrder": 152,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -31496,7 +31984,21 @@
               "value": 0
             }
           ],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 1,
+                "innerStrength": 1,
+                "outerStrength": 4
+              },
+              "stringParameters": {
+                "color": "160;160;160"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [
             {
               "name": "FireBullet",
@@ -31575,7 +32077,21 @@
               "value": 0
             }
           ],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 1,
+                "innerStrength": 1,
+                "outerStrength": 4
+              },
+              "stringParameters": {
+                "color": "160;160;160"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [
             {
               "name": "FireBullet",
@@ -31934,7 +32450,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Logs: 0/3",
+          "string": "🪵Logs: 0/3",
           "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 50,
@@ -31957,7 +32473,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Logs: 0/3",
+            "text": "🪵Logs: 0/3",
             "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -32400,6 +32916,161 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "GoToTheBeaverTXT",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You’ve collected all the logs. Now go back to the beaver.",
+          "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 253,
+            "g": 253,
+            "r": 253
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 3,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "You’ve collected all the logs. Now go back to the beaver.",
+            "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "253;253;253"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "Barrier",
+          "texture": "NewTiledSprite2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PressE",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "E (to interact)",
+          "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 10,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "E (to interact)",
+            "font": "3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 10,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "LogExample",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\pile.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 155,
+                            "y": 165
+                          },
+                          {
+                            "x": 335,
+                            "y": 165
+                          },
+                          {
+                            "x": 335,
+                            "y": 525
+                          },
+                          {
+                            "x": 155,
+                            "y": 525
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -32422,6 +33093,9 @@
           },
           {
             "objectName": "itemRock2"
+          },
+          {
+            "objectName": "PressE"
           },
           {
             "objectName": "itemRock"
@@ -32451,6 +33125,9 @@
             "objectName": "LogsCounter"
           },
           {
+            "objectName": "GoToTheBeaverTXT"
+          },
+          {
             "objectName": "unfinished_bridge"
           },
           {
@@ -32458,6 +33135,12 @@
           },
           {
             "objectName": "bridgeCollision"
+          },
+          {
+            "objectName": "Barrier"
+          },
+          {
+            "objectName": "LogExample"
           }
         ]
       },
@@ -32536,6 +33219,22 @@
               },
               "parameters": [
                 "finished_bridge"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GoToTheBeaverTXT"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "PressE"
               ]
             },
             {
@@ -32671,7 +33370,25 @@
                   "parameters": []
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "GoToTheBeaverTXT",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "LogsCounter"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -33734,7 +34451,7 @@
                     "rockBullet",
                     "TreeTargetX",
                     "TreeTargetY",
-                    "50",
+                    "100",
                     "1"
                   ]
                 },
@@ -34023,6 +34740,30 @@
                           },
                           "parameters": [
                             "Player",
+                            "Snake",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Barrier",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
                             "bridgeCollision",
                             "",
                             "",
@@ -34090,6 +34831,26 @@
                       "parameters": [
                         "Player",
                         "bridgeCollision",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Snake",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Barrier",
                         ""
                       ]
                     }
@@ -34184,7 +34945,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "PLAYER ANIMATIONS",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -34393,7 +35153,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "NPC",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34524,7 +35283,7 @@
                     "DialogueTXT",
                     "Text",
                     "=",
-                    "\"Only problem is, I’m fresh out of logs.\""
+                    "\"Only problem is, I’m fresh out of logs because of a toothache.\""
                   ]
                 },
                 {
@@ -34543,7 +35302,7 @@
                     "DialogueTXT",
                     "Text",
                     "=",
-                    "\"Bring me three good logs, and I’ll whip up a sturdy bridge faster than you can shake your tail.\""
+                    "\"Bring me three logs similar to what’s lying on the stump—and I’ll build a sturdy bridge faster than you can wag your tail.\""
                   ]
                 },
                 {
@@ -34575,10 +35334,27 @@
                 },
                 {
                   "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "E"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
                     "LogsCounter",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Barrier",
                     ""
                   ]
                 }
@@ -34618,6 +35394,14 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "GoToTheBeaverTXT"
+                  ]
+                },
                 {
                   "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -34928,7 +35712,7 @@
           "isLocked": false,
           "name": "Collision",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
